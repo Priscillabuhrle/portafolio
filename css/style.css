@@ -1,0 +1,307 @@
+/*botones redes sociales*/
+.caja-redes {
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  width: 400px;
+}
+.caja-redes a {
+  text-align: center;
+  font-size: 20px;
+}
+.icon-button {
+  background-color: white;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  height: 3em;
+  line-height: 3em;
+  margin: 20px 10px;
+  position: relative;
+  width: 3em;
+}
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
+  margin: -1.5em;
+}
+.linkedin span {
+  background-color: #4393BB;
+}
+.pinterest span {
+  background-color: black;
+}
+.twitter span {
+  background-color: #4099ff;
+}
+.facebook span {
+  background-color: #3B5998;
+}
+.google-plus span {
+  background-color: #db5a3c;
+}
+/* Iconos */
+.icon-button i {
+  background: none;
+  color: white;
+  left: 12px;
+  line-height: 3em;
+  position: absolute;
+  top: -6px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3em;
+  z-index: 2;
+}
+.icon-button .icon-linkedin {
+  color: #4393BB;
+}
+.icon-button .icon-github {
+  color: black;
+  font-size: 35px;
+  margin: -3px -5px;
+}
+.icon-button .icon-twitter {
+  color: #4099ff;
+}
+.icon-button .icon-facebook {
+  color: #3B5998;
+}
+.icon-button .icon-google-plus {
+  color: #db5a3c;
+}
+.icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
+  color: white;
+}
+.icon-button .icon-github:hover {
+  color: white;
+}
+
+body{
+  background-image: url("../img/fondov1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100% 100%;
+}
+nav .brand-logo{
+  font-family: 'Anton', sans-serif;
+  font-size: 55px;
+  margin-top: 40px;
+  color: #004d40  ;
+}
+/*#f0f4c3*/
+nav .nav-wrapper{
+  background-color: #c0ca33;
+  height: 150px;
+
+}
+nav .nav-wrapper .pbnav{
+  font-family: 'Francois One', sans-serif;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+footer.page-footer{
+  background-color: #424242;
+}
+/*botones portafolio*/
+.slider .indicators .indicator-item{
+  background-color: black;
+}
+.progress {
+ display: inline-block;
+ margin-bottom: -10px;
+}
+/*portafolio*/
+.slider .slides  {
+  margin-top: 70px;
+}
+#yopb{
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+  color: #ffa000;
+  text-align: right;
+}
+/*texto slaider*/
+.caption{
+  background-color: rgba(0,0,0,0.7);
+}
+#tittrabajo{
+  font-family: 'Francois One', sans-serif;
+  font-size: 60px;
+  color: #ffff00;
+}
+.grey-text.text-lighten-3{
+  font-weight: 600;
+}
+a{
+  color:#ff3d00 ;
+  font-size: 20px;
+  font-weight: 600;
+}
+#pbflecha{
+ float: right;
+ font-size: 20px;
+ margin-right: -150px;
+ margin-top: -80px;
+}
+/*yo*/
+#slide-out{
+  background-image: url("../img/fondo6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100% 100%;
+}
+.background{
+  padding: 7px;
+  height: 400px;
+}
+.textpb{
+  color: #212121;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+}
+.texp{
+  color: #212121;
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  margin-top: -20px;
+  font-weight: 500;
+}
+.pbuno{
+  margin-top: 85px;
+}
+
+/* @medias*/
+@media (min-width: 200px ) and (max-width: 320px){
+  nav .nav-wrapper .pbnav{
+    margin: 0;
+    font-size: 20px;
+  }
+  nav .brand-logo.center{
+    font-size: 40px;
+    margin-top: -15px;
+  }
+  .icon-button {
+    height: 2.5em;
+    margin: 45px 11px;
+    width: 2.5em;
+  }
+  .icon-button i {
+    margin: -13px -5px;
+  }
+  .icon-button .icon-github{
+    margin: -28px -9px;
+  }
+  .pbcenter{
+    text-align: center;
+  }
+  #yopb{
+    text-align: center;
+  }
+}
+
+@media (min-width: 321px ) and (max-width: 375px){
+  nav .nav-wrapper .pbnav{
+    margin: 0;
+    font-size: 20px;
+  }
+  nav .brand-logo.center{
+    font-size: 40px;
+    margin-top: -15px;
+  }
+  .icon-button {
+    height: 2.5em;
+    margin: 45px 16px;
+    width: 2.5em;
+  }
+  .icon-button i {
+    margin: -13px -5px;
+  }
+  .icon-button .icon-github{
+    margin: -28px -9px;
+  }
+  .pbcenter{
+    text-align: center;
+  }
+  #yopb{
+    text-align: center;
+  }
+}
+
+@media (min-width: 376px ) and (max-width: 425px){
+  nav .nav-wrapper .pbnav{
+    margin: 0;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  nav .brand-logo.center{
+    font-size: 40px;
+    margin-top: -15px;
+  }
+  .icon-button {
+    height: 2.5em;
+    margin: 45px 21px;
+    width: 2.5em;
+  }
+  .icon-button i {
+    margin: -13px -5px;
+  }
+  .icon-button .icon-github{
+    margin: -28px -9px;
+  }
+  .pbcenter{
+    text-align: center;
+  }
+  #yopb{
+    text-align: center;
+  }
+}
+
+@media (min-width: 426px ) and (max-width: 768px){
+  nav .nav-wrapper .pbnav{
+    margin: 0;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  nav .brand-logo.center{
+    font-size: 40px;
+    margin-top: 65px;
+  }
+  .icon-button {
+    height: 2.5em;
+    margin: 15px 4px;
+    width: 2.5em;
+  }
+  .icon-button i {
+    margin: -8px -5px;
+  }
+  .icon-button .icon-github{
+    margin: -8px -9px;
+  }
+  .pbcenter{
+    text-align: center;
+  }
+  #yopb{
+    text-align: center;
+  }
+}
