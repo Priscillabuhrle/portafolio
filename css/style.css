@@ -109,7 +109,7 @@ nav .brand-logo{
 /*#f0f4c3*/
 nav .nav-wrapper{
   background-color: #c0ca33;
-  height: 150px;
+  height: 120px;
 
 }
 nav .nav-wrapper .pbnav{
@@ -152,7 +152,7 @@ footer.page-footer{
   font-weight: 600;
 }
 a{
-  color:#ff3d00 ;
+  color:#c0ca33 ;
   font-size: 20px;
   font-weight: 600;
 }
@@ -188,11 +188,24 @@ a{
   font-weight: 500;
 }
 .pbuno{
-  margin-top: 85px;
+  margin-top: 25px;
+}
+.side-nav .userView .circle{
+   width: 130px;
+   height: 140px;
+   margin-top: -5px;
+   margin-left: 35px;
+}
+.pbver{
+  color: white;
+  margin-top: -10px;
 }
 
 /* @medias*/
 @media (min-width: 200px ) and (max-width: 320px){
+  nav .nav-wrapper{
+    height: 150px;
+  }
   nav .nav-wrapper .pbnav{
     margin: 0;
     font-size: 20px;
@@ -200,6 +213,9 @@ a{
   nav .brand-logo.center{
     font-size: 40px;
     margin-top: -15px;
+  }
+  .side-nav .userView .circle{
+    margin: 10px 80px;
   }
   .icon-button {
     height: 2.5em;
@@ -218,9 +234,15 @@ a{
   #yopb{
     text-align: center;
   }
+  .pbver{
+    text-align: center;
+  }
 }
 
 @media (min-width: 321px ) and (max-width: 375px){
+  nav .nav-wrapper{
+    height: 150px;
+  }
   nav .nav-wrapper .pbnav{
     margin: 0;
     font-size: 20px;
@@ -246,9 +268,18 @@ a{
   #yopb{
     text-align: center;
   }
+   .pbver{
+    text-align: center;
+  }
+  .side-nav .userView .circle{
+    margin: 10px 65px;
+  }
 }
 
 @media (min-width: 376px ) and (max-width: 425px){
+  nav .nav-wrapper{
+    height: 150px;
+  }
   nav .nav-wrapper .pbnav{
     margin: 0;
     margin-left: 25px;
@@ -274,6 +305,12 @@ a{
   }
   #yopb{
     text-align: center;
+  }
+  .pbver{
+    text-align: center;
+  }
+  .side-nav .userView .circle{
+    margin-top: 10px;
   }
 }
 
@@ -304,4 +341,14 @@ a{
   #yopb{
     text-align: center;
   }
+  .pbver{
+    text-align: center;
+  }
+  .side-nav .userView .circle{
+    margin: 10px 65px;
+  }
+}
+
+.slider .slides li .caption{
+  padding-bottom: 15px;
 }
