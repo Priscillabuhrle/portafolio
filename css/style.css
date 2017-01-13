@@ -108,7 +108,7 @@ nav .brand-logo{
 }
 /*#f0f4c3*/
 nav .nav-wrapper{
-  background-color: #c0ca33;
+  background-color: #c6ff00;
   height: 120px;
 
 }
@@ -121,6 +121,10 @@ nav .nav-wrapper .pbnav{
 footer.page-footer{
   background-color: #424242;
 }
+.progress{
+  height: 8px;
+}
+
 /*botones portafolio*/
 .slider .indicators .indicator-item{
   background-color: black;
@@ -136,7 +140,7 @@ footer.page-footer{
 #yopb{
   font-family: 'Francois One', sans-serif;
   font-size: 40px;
-  color: #ffa000;
+  color: #ffff00;
   text-align: right;
 }
 /*texto slaider*/
