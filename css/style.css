@@ -152,6 +152,11 @@ footer.page-footer{
   font-size: 60px;
   color: #ffff00;
 }
+#tittrabajo2{
+  font-family: 'Francois One', sans-serif;
+  font-size: 60px;
+  color: #ffff00;
+}
 .grey-text.text-lighten-3{
   font-weight: 600;
 }
@@ -241,6 +246,17 @@ a{
   .pbver{
     text-align: center;
   }
+  .pbcon{
+    text-align: center;
+  }
+  #tittrabajo2{
+    font-size: 30px;
+  }
+  .slider .indicators .indicator-item{
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+  }
 }
 
 @media (min-width: 321px ) and (max-width: 375px){
@@ -275,8 +291,19 @@ a{
    .pbver{
     text-align: center;
   }
+  .pbcon{
+    text-align: center;
+  }
   .side-nav .userView .circle{
     margin: 10px 65px;
+  }
+  #tittrabajo2{
+    font-size: 33px;
+  }
+  .slider .indicators .indicator-item{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
   }
 }
 
@@ -313,8 +340,19 @@ a{
   .pbver{
     text-align: center;
   }
+  .pbcon{
+    text-align: center;
+  }
   .side-nav .userView .circle{
     margin-top: 10px;
+  }
+  #tittrabajo2{
+    font-size: 33px;
+  }
+  .slider .indicators .indicator-item{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
   }
 }
 
@@ -348,10 +386,17 @@ a{
   .pbver{
     text-align: center;
   }
+  .pbcon{
+    text-align: left;
+  }
+  .progress{
+    margin-left: 15px;
+  }
   .side-nav .userView .circle{
     margin: 10px 65px;
   }
 }
+/*fin @medias*/
 
 .slider .slides li .caption{
   padding-bottom: 15px;
