@@ -116,13 +116,30 @@ nav .nav-wrapper .pbnav{
   font-family: 'Francois One', sans-serif;
   font-size: 25px;
   margin-left: 30px;
+  color: #004d40;
+  /* se grega borde negro letras blancas del menu
+  -webkit-text-stroke: 0.2px black;*/
 }
 
+/* footer*/
 footer.page-footer{
   background-color: #424242;
 }
 .progress{
   height: 8px;
+}
+.pbcenter{
+  display: inline-block;
+}
+.iconofooter {
+  color: green;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.iconomail{
+  color:white;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 /*botones portafolio*/
